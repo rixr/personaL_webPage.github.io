@@ -1,0 +1,11 @@
+{
+  "name": "web_page",
+  "version": "1.0.0",
+  "description": "package.json of web_page project",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Ramos",
+  "license": "ISC"
+}
