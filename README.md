@@ -1,1 +1,1 @@
-# personaL_webPage.github.io
+# personal_webPage.github.io
