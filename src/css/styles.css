@@ -1,26 +1,69 @@
 *{
+	
 	padding: 0px;
 	margin: 0px;
 	font-family: Century Gothic;
 }
-
+html{
+		background-color: #BABABA;
+		
+}
 body{
-	background-color: #3C3C3C;
+	background-color: #white;
 	
 }
 
-.bar-side{
-	position: absolute;
-	width: 100px;
-	height: 500px;
-	left: 0%;
-	padding: 2em;
+.header{
+	background-color: #3A3A3B;
+	position: relative;
+	padding: 1em;
 	margin: auto;
-	border: 3px solid #73AD21;
+	display: flex;
+	justify-content: flex-end;
 }
 
-.header{
-	position; relative;
+.my_photo{
+	background: #000000;
+	opacity: 0.5;
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	position: relative;
+}
+
+.header_box{
+	background: #FFFFFF;
+	opacity: 0.5;
+	margin: 8px;
+	padding: 10px;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px 1px;
+	text-align: center;
+}
+
+.bar-side_box {
+	margin: 20px 2px 20px 1px;
+	padding: 10px;
+	vertical-align: middle;
+	background: #FFFFFF;
+	opacity: 0.5;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px 1px;
+	text-align: center;
+}
+
+.bar-side{
+	background-color: #3A3A3B;
+	position: absolute;
+	top: 13%;
+	width: 10%;
+	height:100%;  
+	padding: 5px;
+}
+
+section.home{
+	position: relative;
+	margin: 10% 40% 0 27%;
 }
 
 .home{
@@ -30,13 +73,14 @@ body{
 	height: 50%;
 	width: 50%;
 	min-width: 250px;
-	position: relative;
+	position: absolute;
 	padding: 2em;
-	margin: auto;
+	margin: inherit;
 	display: flex;
 	flex-wrap: wrap;
 	border-radius: 25px;
 	box-shadow: 20px 20px 20px 1px;
+	text-align: center;
 }
 
 .child{

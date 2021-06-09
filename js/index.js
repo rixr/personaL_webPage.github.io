@@ -1,1 +1,0 @@
-console.log("ESTE ES EL TEXTO DESDE JS");
